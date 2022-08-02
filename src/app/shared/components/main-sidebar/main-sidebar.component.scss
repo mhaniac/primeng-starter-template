@@ -1,0 +1,39 @@
+/* Sidebar Custom Style */
+/* Headers normal look */
+
+@import "../../../../styles/abstracts/variables";
+
+::ng-deep .p-menu {
+  background-color: $dark-blue;
+  color: $color-light;
+}
+
+::ng-deep .p-submenu-header {
+  color: $color-muted !important;
+  background-color: $dark-blue !important;
+  position: relative !important;
+  font-size: 12px !important;
+  text-transform: uppercase !important;
+  font-weight: bold !important;
+  &::before {
+    content: "-";
+    margin-right: 0.5em;
+  }
+}
+
+::ng-deep .p-menuitem-text {
+  color: $color-light !important;
+}
+
+::ng-deep .p-menuitem-icon {
+  color: $color-light !important;
+}
+
+::ng-deep .p-menuitem {
+  transition: all ease 0.3s;
+  border-left: solid 2px transparent;
+
+  &:hover {
+    border-left: solid 2px #2962ff;
+  }
+}

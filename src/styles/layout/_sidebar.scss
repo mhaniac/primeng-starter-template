@@ -1,0 +1,14 @@
+.sidebar {
+  background-color: $dark-blue;
+  color: $color-light;
+  height: 100vh;
+  max-height: 100vh;
+  overflow-y: auto;
+  padding: 1em 0em;
+
+  &__brand {
+    width: 60%;
+    margin: 0 auto 0 0.5em;
+    margin-bottom: 0.5em;
+  }
+}
